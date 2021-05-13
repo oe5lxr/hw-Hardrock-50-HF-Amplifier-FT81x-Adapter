@@ -14,23 +14,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L mechanical-connectors:CONN_01X09 P?
+L mechanical-connectors:CONN_01X09 P1
 U 1 1 609D1868
 P 3400 3250
-F 0 "P?" H 3317 3865 50  0000 C CNN
+F 0 "P1" H 3317 3865 50  0000 C CNN
 F 1 "CONN_01X09" H 3317 3774 50  0000 C CNN
-F 2 "mechanical-connectors:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 3400 3250 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm" H 3400 3250 50  0001 C CNN
 F 3 "" H 3400 3250 50  0000 C CNN
 	1    3400 3250
 	-1   0    0    -1  
 $EndComp
 $Comp
-L mechanical-connectors:CONN_01X08 P?
+L mechanical-connectors:CONN_01X08 P2
 U 1 1 609D1DBC
 P 7450 3400
-F 0 "P?" H 7528 3441 50  0000 L CNN
+F 0 "P2" H 7528 3441 50  0000 L CNN
 F 1 "CONN_01X08" H 7528 3350 50  0000 L CNN
-F 2 "" H 7450 3400 50  0000 C CNN
+F 2 "mechanical-connectors:MiniDIN_8" H 7450 3400 50  0001 C CNN
 F 3 "" H 7450 3400 50  0000 C CNN
 	1    7450 3400
 	1    0    0    -1  
@@ -46,10 +46,10 @@ BAND_DATA
 Text Label 3750 3150 0    50   ~ 0
 PTT
 $Comp
-L power-supply:GND #PWR?
+L power-supply:GND #PWR01
 U 1 1 609D3626
 P 3800 3750
-F 0 "#PWR?" H 3800 3500 50  0001 C CNN
+F 0 "#PWR01" H 3800 3500 50  0001 C CNN
 F 1 "GND" H 3805 3577 50  0000 C CNN
 F 2 "" H 3800 3750 50  0000 C CNN
 F 3 "" H 3800 3750 50  0000 C CNN
@@ -67,10 +67,10 @@ NoConn ~ 3600 3450
 NoConn ~ 3600 3550
 NoConn ~ 3600 3650
 $Comp
-L power-supply:GND #PWR?
+L power-supply:GND #PWR02
 U 1 1 609D3D93
 P 7100 3850
-F 0 "#PWR?" H 7100 3600 50  0001 C CNN
+F 0 "#PWR02" H 7100 3600 50  0001 C CNN
 F 1 "GND" H 7105 3677 50  0000 C CNN
 F 2 "" H 7100 3850 50  0000 C CNN
 F 3 "" H 7100 3850 50  0000 C CNN
