@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Hardrock HF50 to Yaesu FT81x adapter"
-Date "2021-05-13"
+Date "2021-05-20"
 Rev "0.1"
 Comp "generationmake"
 Comment1 ""
@@ -88,18 +88,56 @@ PTT
 Wire Wire Line
 	3600 3150 7250 3150
 Wire Wire Line
-	7100 3250 3800 3250
+	7100 3250 5800 3250
 Connection ~ 7100 3250
 Connection ~ 3800 3250
 Wire Wire Line
 	5400 3550 5400 2950
 Wire Wire Line
 	3600 2950 5400 2950
-NoConn ~ 7250 3050
 NoConn ~ 7250 3350
 NoConn ~ 7250 3450
 NoConn ~ 7250 3650
 NoConn ~ 7250 3750
 Wire Wire Line
 	5400 3550 7250 3550
+$Comp
+L devices:R_0603 R1
+U 1 1 60A60105
+P 6700 2800
+F 0 "R1" V 6504 2800 50  0000 C CNN
+F 1 "10k" V 6595 2800 50  0000 C CNN
+F 2 "resistors:R_0603" H 6700 2650 50  0001 C CNN
+F 3 "" H 6700 2800 50  0000 C CNN
+	1    6700 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L devices:Led_Small D1
+U 1 1 60A6083A
+P 6200 2800
+F 0 "D1" H 6200 3035 50  0000 C CNN
+F 1 "150060GS75000" H 6200 2944 50  0000 C CNN
+F 2 "LEDs:LED_0603" V 6200 2800 50  0001 C CNN
+F 3 "" V 6200 2800 50  0000 C CNN
+	1    6200 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3050 6850 3050
+Wire Wire Line
+	6850 3050 6850 2800
+Wire Wire Line
+	6850 2800 6800 2800
+Wire Wire Line
+	6600 2800 6300 2800
+Wire Wire Line
+	6100 2800 5800 2800
+Wire Wire Line
+	5800 2800 5800 3250
+Connection ~ 5800 3250
+Wire Wire Line
+	5800 3250 3800 3250
+Text Label 6950 3050 0    50   ~ 0
++13.8V
 $EndSCHEMATC
