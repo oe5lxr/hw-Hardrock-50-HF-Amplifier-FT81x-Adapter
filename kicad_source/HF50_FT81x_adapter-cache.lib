@@ -1,6 +1,19 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# MECH_mounting-holes_MHP_3.2_5.0
+#
+DEF MECH_mounting-holes_MHP_3.2_5.0 MECH 0 40 Y Y 1 F N
+F0 "MECH" 0 150 50 H V C CNN
+F1 "MECH_mounting-holes_MHP_3.2_5.0" 50 -150 50 H V C CNN
+F2 "MECH_mounting_holes:MHP_3.2_5.0" -100 50 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 100 100 -100 1 1 0 N
+X 1 1 -300 0 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # devices_Led_Small
 #
 DEF devices_Led_Small D 0 10 N N 1 F N
