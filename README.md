@@ -14,4 +14,11 @@ This adapter allows to control the Hardrock-50 HF amplifier with the popular QRP
 
 ![HF50_FT81x_adapter PCB top](docs/images/HF50_FT81x_adapter_top.png)
 
+### Bot
+
+![HF50_FT81x_adapter PCB bot](docs/images/HF50_FT81x_adapter_bot.png)
+
+## Order
+
+https://aisler.net/p/WRVRYMXA
 

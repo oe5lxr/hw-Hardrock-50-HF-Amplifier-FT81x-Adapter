@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bernhard/projects/lxr-hw-Hardrock-50-HF-Amplifier-FT81x-Adapter/kicad_source/HF50_FT81x_adapter.sch)
-    (date "Do 20 Mai 2021 22:50:05 CEST")
+    (date "Do 20 Mai 2021 23:23:34 CEST")
     (tool "Eeschema 5.1.10-88a1d61d58~88~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -16,7 +16,7 @@
         (comment (number 4) (value "")))))
   (components
     (comp (ref P1)
-      (value CONN_01X09)
+      (value LD09P33E4GX00LF)
       (footprint Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset7.70mm_Housed_MountingHolesOffset9.12mm)
       (libsource (lib mechanical-connectors) (part CONN_01X09) (description "Connector 01x09"))
       (sheetpath (names /) (tstamps /))
