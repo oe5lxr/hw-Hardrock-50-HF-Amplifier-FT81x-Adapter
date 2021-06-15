@@ -5,7 +5,7 @@ This adapter allows to control the [Hardrock-50 HF amplifier](https://www.hobbyp
 
 Copyright © Alexander Entinger ([OE5LXR](https://oe5lxr.at/)) and Bernhard Mayer ([DL1MAB](https://twitter.com/generation_make)).
 
-Order kit via [Aisler](https://aisler.net/p/WRVRYMXA).
+Order kit via [Aisler](https://aisler.net/p/WRVRYMXA). In addition to the kit you need a Mini-DIN-8 Male/Male cable.
 
 <p align="center">
   <a href="https://aisler.net/p/WRVRYMXA"><img src="https://github.com/oe5lxr/hw-Hardrock-50-HF-Amplifier-FT81x-Adapter/raw/main/docs/images/HF50_FT81x_adapter_rendering.png" width="40%"></a>
