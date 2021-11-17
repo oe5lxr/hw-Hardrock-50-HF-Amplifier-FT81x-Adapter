@@ -7,6 +7,9 @@ Copyright © Alexander Entinger ([OE5LXR](https://oe5lxr.at/)) and Bernhard Maye
 
 Order kit via [Aisler](https://aisler.net/p/WRVRYMXA). In addition to the kit you need a Mini-DIN-8 Male/Male cable.
 
+**Blogpost**: [How to interface your Yaesu FT-817ND/FT-818 radio with a Hardrock-50 HF amplifier
+](https://oe5lxr.at/yaesu-ft-817nd-hardrock-interface/).
+
 <p align="center">
   <a href="https://aisler.net/p/WRVRYMXA"><img src="https://github.com/oe5lxr/hw-Hardrock-50-HF-Amplifier-FT81x-Adapter/raw/main/docs/images/HF50_FT81x_adapter_rendering.png" width="40%"></a>
 </p>
