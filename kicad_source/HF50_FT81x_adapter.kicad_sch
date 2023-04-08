@@ -600,7 +600,7 @@
     (uuid 00000000-0000-0000-0000-000060a60105)
     (property "Reference" "R1" (id 0) (at 170.18 66.1416 90))
     (property "Value" "10k" (id 1) (at 170.18 68.453 90))
-    (property "Footprint" "resistors:R_0603" (id 2) (at 166.37 71.12 0)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (id 2) (at 166.37 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 170.18 71.12 0))
@@ -613,7 +613,7 @@
     (uuid 00000000-0000-0000-0000-000060a6083a)
     (property "Reference" "D1" (id 0) (at 157.48 65.151 0))
     (property "Value" "150060GS75000" (id 1) (at 157.48 67.4624 0))
-    (property "Footprint" "LEDs:LED_0603" (id 2) (at 157.48 71.12 90)
+    (property "Footprint" "LED_THT:LED_D3.0mm" (id 2) (at 157.48 71.12 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 157.48 71.12 90))
@@ -669,7 +669,7 @@
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060a6083a"
-      (reference "D1") (unit 1) (value "150060GS75000") (footprint "LEDs:LED_0603")
+      (reference "D1") (unit 1) (value "150060GS75000") (footprint "LED_THT:LED_D3.0mm")
     )
     (path "/00000000-0000-0000-0000-000060a6cf72"
       (reference "MECH1") (unit 1) (value "MHP_3.2_5.0") (footprint "MECH_mounting_holes:MHP_3.2_5.0")
@@ -684,7 +684,7 @@
       (reference "P2") (unit 1) (value "KMDGX-8S-BS") (footprint "mechanical-connectors:MiniDIN_8")
     )
     (path "/00000000-0000-0000-0000-000060a60105"
-      (reference "R1") (unit 1) (value "10k") (footprint "resistors:R_0603")
+      (reference "R1") (unit 1) (value "10k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
     )
   )
 )
